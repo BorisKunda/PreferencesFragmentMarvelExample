@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <CheckBox
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/heroCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/heroTV"
+        android:layout_alignBottom="@+id/heroTV"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="hero"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/marvelIV"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/heroCB"
+        android:layout_marginTop="28dp" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/heroTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="10sp" />
+
+</RelativeLayout>
