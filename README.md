@@ -1,1 +1,1 @@
-Simple example of Preferences Fragment Usage with marvel characters
+Simple example of Preferences Fragment usage with marvel characters
